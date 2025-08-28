@@ -19,7 +19,7 @@ double simpleMonteCarlo()
      double y1 = sin(x);
      double y = y1 * y1;
      sum += y;
-  }/*END : for(i) */
+  }
 
   double yAvg = sum / (double)(nSamples);
 
